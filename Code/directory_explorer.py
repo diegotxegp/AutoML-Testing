@@ -26,7 +26,7 @@ class DirectoryExplorer:
                 
                 # If both train and test files are found, yield their paths
                 if train_file and test_file:
-                    yield root,train_file, test_file
+                    yield root, train_file, test_file
                     # Reset train and test to search for more pairs in the same or other directories
                     train_file = None
                     test_file = None
